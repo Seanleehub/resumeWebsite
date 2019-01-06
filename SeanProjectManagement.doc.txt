@@ -1,0 +1,208 @@
+PROJECT MANAGEMENT
+Project Scope
+
+SCOPE STATEMENT
+SeanLeeResume is a website created for Sean Lee.  The purpose of this website is to be an online résumé/portfolio that will showcase Sean Lee’s skill, talent and passion for website design for potential employees that may come across this website, product from surfing the internet as well as those who are given the website address.
+SeanLeeResume is meant to be a website that will leave a lasting impression. The website should be easily navigated and visitors should be able to provide their feedback of the website as well as be able to contact Sean for further enquiries.
+PROJECT CONSTRAINTS
+SeanLeeResume is a résumé/portfolio website showcasing the talents and abilities of Sean. Although Flash is a widely used component in website design, it is refrained to be used in this web site for any part of the website unless it is for portfolio purposes. This means that there will be no flash components used for banners, headings and links because there is an accessibility issue to account for.  JavaScript and CSS however is used throughout the website. This website will be built according to HTML 1.0 Transitional specifications and conforms to Web Consortium Accessibility Guidelines (WCAG) priority 1 and 2 checkpoints.
+ASSUMPTIONS
+* In account that the website will contain a feedback and contact us section, PHP pages will be required to store information.  
+* The website is to be a standard compliant XHTML 1.0 and WAI. 
+* The CSS will be as standard complaint as possible, with the exception of CSS hacks only where completely necessary.
+* Visually appealing website.
+* Website can be found by search engines like Google and the like. 
+
+SYSTEM DEVELOPMENT
+DEFINITION AND ANALYSIS OF ALL STAKE HOLDERS
+StakeholderAnalysisCreator/Webmaster (Sean Lee)What are your expectations for this website?
+I expect it to fulfill its purpose of exhibiting my skills and talents in the web design field. I want it to be a website where its viewers would come back for a second look. 
+What sort of functionality would you like to incorporate into this website?
+I would like for users to be able to leave their name and contact details securely when providing feedback via the contact me page.
+Do you have any look-and-feel materials that need to be incorporated?
+NoTeacher/Project Assessor (Jack)What are your expectations for this website?
+
+What sort of functionality would you like to incorporate into this website?
+FUNCTIONAL AND NON-FUNCTIONAL REQUIREMENTS
+Personalisation FunctionsTransactional FunctionsSecurity Functions* Able to leave a name and contact details on feedback forms
+* Able to download résumé in pdf format
+* Able to navigate the website easily
+* Accessible – WAI compliant
+* Able to download old assessments in pdf formatn/a* No emails left in html mark-up. 
+* Use PhP to hide/ secure personal details.
+CONTEXT DIAGRAM
+
+AUDIENCE DEFINITION AND PROFILE
+Target AudiencePerson ProfileWeb User ProfileContext of User ProfilePotential Employees - Male or female
+- Age 18+
+- English speaking
+- Business Owner or IT professional- Site available 24/7
+- Good knowledge of a computer and the internet
+- Good searching skillsSoftware
+- IE 7
+- FF 2
+- Opera 9
+- Safari 3
+Hardware
+- Pentium 4 minimum
+Internet
+- Dail-Up +  
+
+
+NAVIGATION & STRUCTURE DIAGRAMS
+
+WIREFRAME
+Index.html– Home Page
+
+
+
+resume.html -Resume Page
+
+
+portfolio.html – Portfolio Page
+
+
+
+
+Sitepolicy.html – Site Policy
+
+
+Sitemap.html- Site Map
+
+
+Contacts.html - Contacts
+
+PROTOTYPES
+
+
+
+STORYBOARD
+
+The Layout is consistent throughout the site and no major changes are made in any give pages.
+IMPLEMENTATION
+STYLE GUIDE
+Text Styles
+The default text style used for the site is Verdana, Arial, Helvetica, sans-serif. The size is 12 pixels and color is black
+Example: Responsibilities
+H3 is used throughout the site. The size I defined is 18 pixels and the color is #223C75 which is a dark blue.
+Example: Personal Details
+The standard text-align used for this site is center, with a padding of 10px on the top, bottom, left and right.
+Lists
+Unordered and Ordered lists are used in this site, unordered lists are used when there is a collection of items that have no strict order Example: a list of links..
+* Research report
+* Innovation Report
+* Performance Measurement
+* Management and training plan
+Ordered list are used when the site has a collection of items for which a strict order is necessary Example: Steps in a process 
+1. Research Report
+2. Innovation Report
+3. Performance Measurement
+4. Management and training plan
+
+Tables
+Tables are used throughout the website, the table widths are set to 100% of the div they are in and the height is set to AUTO. There is no particular heading color used in the tables but the td’s are set to border-top = 0, border-right=0, border-left =0, and border-bottom= solid 1px #223C75. The bottom border is used an a separator to identify the diff table rows in the table Example:
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam egestas, purus ut tempor pulvinar, enim elit Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam egestas, purus ut tempor pulvinar, enim elit ___________________________________________________________________________
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam egestas, purus ut tempor pulvinar, enim elit Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam egestas, purus ut tempor pulvinar, enim elit 
+___________________________________________________________________________
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam egestas, purus ut tempor pulvinar, enim elit Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam egestas, purus ut tempor pulvinar, enim elit 
+___________________________________________________________________________
+
+Images
+The style for the images in this website is that the height and width must be within the content div that it is in and is centered aligned, also that all images must contain alts for accessibility purposes. Images also contain titles for the same reasons.
+
+
+Links
+When presenting a list of links, the correct html method is an unordered list
+* First section
+* Second section
+* Third section
+
+The links on this website are styled with Verdana, Arial, Helvetica, sans-serif as the default font , font-weight = bold, text-decoration = none and color = #223871, with an rollover effect that changes the color to #0560AF.
+Links also contains titles for accessibility reasons.
+Page elements
+Main content should go into the right div(larger div) and sub content like notices/ short cut links should go into the left dive(smaller div)
+Applying styles
+The pages in this website should automatically pick up the style through the external Cascading Style Sheets (CSS). Most webpage elements are styled automatically and do not require the page maintainer to manually apply a style to the element. 
+Some page elements can have styles optionally applied to them. For Example, Lists, tables, forms and links can have styled applied to them, only a small subset of the styles that can be viewed in Dreamweaver through the Style drop down box in the Property Inspector should be used.
+
+USER GUIDE TO UPLOAD THE WEBSITE ON THE INTERNET
+A web server is a computer permanently connected to the internet that uses special software to delivery web pages upon request by web browsers. 
+A hosting server/service unless already been provided. Such service is available at (http://www.godaddy.com/gdshop/registrar/search.asp?isc=goxtau400c&currencytype=AUD).
+Transferring pages to a web server 
+To upload a page to your web server, you usually need a software known as File Transfer Protocol. 
+FTP is the standard protocol that your file transfer software must adhere to when sending files to a web server. After you’ve published files to a web server using FTP, the server sends those files out to anyone who asks for them using HTTP. Thus, FTP is used to upload your HTML files to the web server and HTTP is used by web browsers to download and view your web pages.
+There is 4 important pieces of information, you will likely get from you web hosting service before you can put pages up on your website. They are;
+1. your account name
+2. your password
+3. the FTP address for your site
+4. the folder where your web page files should be place.
+
+You will also need to decide which software you’ll use to send your pages to the web server and maintain our site. The 5 options are:
+1. Microsoft Internet Explorer
+2. Mozilla Firefox (fireFTP extension)
+3. Microsoft FrontPage (or similar web development software)
+4. FTP software (such as SmartFTP, CuteFTP, or FileZilla)
+5. Windows Web Publishing Wizard
+For complex websites it’s recommended using Dreamweaver or similar software. For simple websites you can get the job done with the web browser you already have. 
+I’ll be demonstrating through Mozilla Firefox. If using Firefox as your FTP, you first need to download an extension or also known as an add-on called fireFTP. 
+
+
+
+Follow these simple steps to transfer your website to a web server.
+
+Step 1:  Open up Mozilla Firefox and go to the Tools tab on the browsers toolbar.
+Step2:  After that click on Add-ons
+
+
+
+Step 3:  After that the Add-ons sections will pop-up 
+
+
+
+
+
+Step 4: After the pop-up window shows up, Select the Get Add-ons tab on the top left of the window (It is the brown bow with a green arrow on the top)
+Step5:  After that Select the Browse All Add-ons link 
+
+
+Step 6: You should come up with the screen above.
+Step 7: After that Type “fireFTP” which is the add-on that is needed to load the webpage to the web server. Click Add to FireFox.
+
+Step 8: Once its installed, it will ask to restart Firefox, click restart. You should get the above screen.
+
+The program now should be successfully installed. Below are the steps required to publish HTML files using Mozilla Firefox.
+1. Run Firefox.
+2. Select Tools followed by fireFTP to start the fireFTP extension. The browser window will change to show somewhat of a file mananger view as shown below in the picture.
+3. Enter your web site address, account name, and password in the edit fields along the top of the fireFTP window. The specific fields are name Host, Login, and Password, respectively. After entering this information click Connect just to the right of the Password field to connect to the web server. If all goes well, you’ll see a notification box that confirms the connection-just click OK to proceed.
+4. Navigate to the appropriate local folder in the left pane, and then click and drag the pages over to the far-right pane. Wait while the files are transferred. 
+5. Test your page by entering the URL of the web page in the Address bar.
+
+
+
+
+VALIDATION RESULTS
+WAI RESULTS
+Above is the WAI results for my Resume Website, the software I used to perform this check is the Fujitsu Web Accessibility Inspector for English.  It passes all Priority Level 1 checkpoints.
+The problems stated on the results are just “CHECKS” to ensure that the user can navigate through the website using the keyboard, I personally checked every page and confirmed that my web site is able to do so.
+XHTML VALIDATION RESULTS
+
+Results for index.html
+
+Results for portfolio.html
+
+Results for resume.html
+
+Results for sitemap.html
+
+Results for sitepolicy.html
+Rest of the pages passed as well.
+CSS VALIDATION RESULTS
+
+
+Results for CSS validation.
+LINK CHECKING
+Passed
+USER SURVEY RESULTS
+
+CLIENT ACCEPTANCE DOCUMENTATION
+

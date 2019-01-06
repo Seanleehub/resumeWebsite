@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Sean Lee's Resume Site</title>
+<meta name="description" content="sean lee web design resume site examples or samples php projects examples" />
+<meta name="keywords" content="sean lee,web design, resume site,php" />
+
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_effectSlide(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoSlide(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="javascript/formvalidation.js"></script>
+
+
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+
+<body onload="MM_effectSlide('contentheader', 2000, '0%', '100%', false);MM_preloadImages('images/buttons/homepage2.png','images/buttons/resumepage2.png','images/buttons/portfolio2.png','images/buttons/policy2.png','images/buttons/sitemap2.png','images/buttons/contacts2.png','images/homepage3.png','images/resume3.png','images/portfolio3.png','images/policy3.png','images/sitemap3.png','images/contact3.png')"><noscript></noscript>
+
+<div id="container">
+<div id="websitecontainer">
+    <div id="header">
+      <div id="bannercontainer">
+        <div id="bannersidecontainer">
+        
+       <a name="top" id="top" ></a><img src="images/sides.jpg" name="bannerleftside" width="11" height="100" id="bannerleftside" alt="bannerside1" /><img src="images/sides.jpg" name="bannerrightside" width="11" height="100" id="bannerrightside" alt="bannerside2"/></div>
+      
+        <div align="center"><img src="images/banner.jpg" width="738" height="100" alt="banner1"/></div>
+      </div>
+      
+      <div id="navcontainer"> 
+      <img src="images/midnav_01.png" name="leftnav" height="31" id="leftnav" alt="leftnav"/><img src="images/midnav_03.png" name="rightnav" height="31" id="rightnav" alt="rightnav" />
+          
+        <div id="navbar">
+          <a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','images/buttons/homepage2.png','blank','','images/homepage3.png',1)" accesskey="1" tabindex="1"><img src="images/buttons/homepage.png" alt="HomePage" name="Image3" width="71" height="31" border="0" id="Image3"/></a>
+          <a href="resume.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images/buttons/resumepage2.png','blank','','images/resume3.png',1)" tabindex="2"><img src="images/buttons/resumepage.png" alt="ResumePage" name="Image4" width="78" height="31" border="0" id="Image4" /></a> 
+          <a href="portfolio.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','images/buttons/portfolio2.png','blank','','images/portfolio3.png',1)" tabindex="3"><img src="images/buttons/portfolio.png" alt="Portfolio" name="Image5" width="56" height="31" border="0" id="Image5" /></a>
+          <a href="sitepolicy.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','images/buttons/policy2.png','blank','','images/policy3.png',1)" tabindex="4"><img src="images/buttons/policy.png" alt="Site Policy" name="Image6" width="70" height="31" border="0" id="Image6" /></a>
+          <a href="sitemap.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','images/buttons/sitemap2.png','blank','','images/sitemap3.png',1)" accesskey="2" tabindex="5"><img src="images/buttons/sitemap.png" alt="Site Map" name="Image7" width="62" height="31" border="0" id="Image7" /></a><a href="contacts.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/buttons/contacts2.png','blank','','images/contact3.png',1)" accesskey="6" tabindex="6"><img src="images/buttons/contacts.png" alt="Contacts" name="Image11" width="56" height="31" border="0" id="Image11" /></a></div>
+      </div>
+    </div>
+    <div id="blank"><img src="images/blank.png" name="blank" width="385" height="25" id="blankimg" alt="blankimg"/></div><br clear="all" />
+     					 <div id="content">
+                         
+                           <div id="contentright">
+                             <div id="headercontainer">       	 <div id="contentheader">
+                                                <div id="contentheadercontent"><img src="images/portfolioheader.png" alt="homepageheader"/></div>
+                             </div></div>
+                            						<div id="leftcontent">								
+                            						  <table id="contentlefttable"><tr><td class="borderbottom">
+                                                        <p class="style4">PhP</p>
+                                                        <p>This is a PhP example i made, it produces random quotes when u reload the page or when u click the Change Button. Feel free to test it out.
+                                                        </p></td></tr><tr>
+                                                    <td class="borderbottom">
+                                                    <form method="post" action="phpexample.php">
+<table width="100%">
+<tr><td height="110">
+<?php
+// The name of your quote file
+$quote_file = "quotes.txt";
+
+// Open the quote file
+$fp = fopen($quote_file, "r");
+
+// Read the contents and tokenize the file to individual quotes
+$quotes = fread($fp, filesize($quote_file)); 
+$array = explode("\n",$quotes); 
+fclose($fp); 
+
+// Find a random quote
+srand((double)microtime()*1000000); 
+$array_index = (rand(1, sizeof($array)) - 1); 
+
+// Show the random quote
+echo $array[$array_index]; 
+
+?>
+</td>
+</tr>
+<tr><td height="50" align="center">
+    <input type="submit" value="Change" title="Click here to change the quotes" /></p></td></tr></table>
+</form>                                                    </td>
+                                                      </table>
+   						     </div>        
+                           </div>
+                                           
+                                           
+                                           
+                                        <div id="contentleft">
+                                          <p>Samples of my work:</p>
+                                          <ul>
+                                            <li><a href="webdevelopment.html"  title="Click here to view my Web Development samples">Web Development</a></li>
+                                            <li><a href="java.html" title="Click here to view my Javascript samples">JavaScript</a></li>
+                                            <li><a href="flash.html" title="Click here to view my Flash samples">Flash</a></li>
+                                            <li><a href="phpexample.php" class="style7" title="Click here to view my PhP samples">PhP</a></li>
+                                            <li><a href="sql.html"  title="Click here to view my SQL samples">SQL</a></li>
+                                            <li><a href="fireworks.html" title="Click here to view my Fireworks samples">Fireworks</a></li>
+                                        
+                                            <li><a href="user.html" title="Click here to view my User Documentation samples">User Documentation</a></li>
+                                            <li><a href="tech.html"  title="Click here to view my Technical Documentation samples">Technical Documentation</a></li>
+                                          </ul>
+                                        </div>
+  </div>
+     
+     
+      
+      <br clear="all" />
+      <div id="footer">
+                         <div id="footersidestop"><img src="images/leftfooter.png" name="leftfooter" id="leftfooter" alt="leftfooter"/><img src="images/rightfooter.png" name="rightfooter" id="rightfooter" alt="rightfooter"/>
+                          <div id="footercontent">
+                                                                                          <table id="footertable">
+                                             <tr>
+                                               <td><a href="index.html" title="Click here to view my Home Page">Sean Lee</a> <a href="sitepolicy.html#copyright" title="Click here to view my copyright statement">&copy; 2008</a> <br/>
+                                               All Rights Reserved<br/>
+                                               <a href="sitepolicy.html#terms" title="Click here to view my terms of use statement">Terms Of Use</a> &nbsp;&nbsp;&nbsp;<a href="sitepolicy.html#privacy" title="Click here to view my Privacy Statement">Privacy</a></td>
+                                    
+                                               <td class="hiddensides"><a href="index.html" title="Click here to view my Home Page Statement">Home Page</a></td>
+                                                <td class="hiddensides" ><a href="resume.html" title="Click here to view my Resume Page">Resume Page</a></td>
+                                                <td class="hiddensides"><a href="portfolio.html" title="Click here to view my Portfolio Page">Portfolio</a></td>
+                                                <td class="hiddensides"><a href="sitepolicy.html" title="Click here to view my Site Policy Page">Site Policy</a></td>
+                                                <td class="hiddensides" ><a href="sitemap.html" title="Click here to view my Site Map Page">Site Map</a></td>
+                                              
+                                    
+                                                <td><a href="contacts.html" title="Click here to view my Contacts Page">Contacts</a></td>
+                                             </tr>
+                                           </table>
+
+                          </div>
+        </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
